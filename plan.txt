@@ -1,0 +1,30 @@
+R, P, and S game
+
+alerts, prompts, comfirms
+
+logic of this game - user will select a value and 
+                     the computer will select random value
+
+how does a user win this game?
+
+R beats S 
+P beats R 
+S beats P
+
+what data do i need to track in the app??
+wins, losses, ties - create variables
+
+computer selection - how am i going to have the pc randomly choose one of these values
+R, P or S 
+
+var computerChoice = ["R" , "P", "S"]
+
+math.floor()    math.random()
+
+once we hav the user selection and random computer selection
+
+we need to compare the 2 values to see if the user won, loss, or tied
+
+if statement - if user wins-wins++
+
+logical operatiors - && || === == ! != !==
