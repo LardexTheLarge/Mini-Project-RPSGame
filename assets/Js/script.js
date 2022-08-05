@@ -5,7 +5,7 @@ var ties = 0;
 var computerChoices = ["R", "P", "S"];
 
 //user choice
-var userMove = prompt("enter R, P or S");
+var userMove = prompt("enter R, P or S").toUpperCase();
 console.log(userMove);
 
 //PC choice
